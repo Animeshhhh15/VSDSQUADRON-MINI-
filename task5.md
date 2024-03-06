@@ -71,51 +71,51 @@ $ ./hello
  The output waveform showing the instructions performed in a 5-stage pipelined architecture.
  
  Instruction 1:add r6,r2,r1
- ![WhatsApp Image 2024-03-05 at 6 16 13 AM](https://github.com/Archanakattii/karchana/assets/160317292/4a8f457c-9902-4c78-b438-e1aeaf26bc6d)
+ ![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/0675695c-bf6b-4eba-97c5-e9ba685e3c7b)
 
  Instruction 2:sub r7,r1,r2
- ![WhatsApp Image 2024-03-05 at 6 16 13 AM (1)](https://github.com/Archanakattii/karchana/assets/160317292/ba37cf98-19f0-4ae7-ac4a-cd7227d8a900)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/d31d779e-105e-495b-9526-7c81125c3f1d)
 
 Instruction 3:and r8,r1,r3
-![WhatsApp Image 2024-03-05 at 6 16 13 AM (2)](https://github.com/Archanakattii/karchana/assets/160317292/ced41569-fb74-4bee-8405-3fefa8688951)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/6969df03-8b47-44e9-9d95-c177ffaefc7d)
 
 
 Instruction 4:or r9,r2,r5
-![WhatsApp Image 2024-03-05 at 6 16 14 AM](https://github.com/Archanakattii/karchana/assets/160317292/bf079638-7e2f-44c8-b40b-d0a970ebd783)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/8115fc18-3b5d-4d59-81ef-45a9ea09a099)
 
 
  Instruction 5:xor r10,r1,r4
-![WhatsApp Image 2024-03-05 at 6 16 14 AM (1)](https://github.com/Archanakattii/karchana/assets/160317292/996dd2d4-968a-406a-a19a-995e8a970366)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/a6794484-f49c-483f-922e-3bdf623ddab1)
 
 
  Instruction 6:slt r11,r2,r4
-![WhatsApp Image 2024-03-05 at 6 16 14 AM (2)](https://github.com/Archanakattii/karchana/assets/160317292/3d62eb93-39b6-40e3-b71d-9b69f5e6a1d2)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/e9e6cfbb-2509-4135-a0f7-af9dcf109514)
+
 
 
  Instruction 7:addi r12,r4,5
-![WhatsApp Image 2024-03-05 at 6 16 15 AM](https://github.com/Archanakattii/karchana/assets/160317292/e805e506-c35d-4db6-aa77-064d222cb203)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/294f0d1c-0724-4aac-a451-a1778eb28c29)
 
  Instruction 8:sw r3,r1,2
- ![WhatsApp Image 2024-03-05 at 6 16 15 AM (1)](https://github.com/Archanakattii/karchana/assets/160317292/5941c111-993e-4672-991c-aaf32e7a8c60)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/6dd649f7-4f42-4809-aea8-b28292c18c44)
 
  Instruction 9:lw r13,r1,2
-![WhatsApp Image 2024-03-05 at 6 16 16 AM](https://github.com/Archanakattii/karchana/assets/160317292/a23d04d3-eaec-4ea7-9ec2-0912272f55ec)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/7d4a796f-80e7-4558-b6af-e1616a5ad982)
 
  Instruction 10:beq r0,r0,15
- ![WhatsApp Image 2024-03-05 at 6 16 16 AM (1)](https://github.com/Archanakattii/karchana/assets/160317292/2e1be942-ddd4-48fc-897e-934d2973fc67)
+ ![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/a5527da9-efee-4593-bf5d-0a161dec62ae)
 
  After branching, performing
  Instruction 11:add r14,r2,r2
- ![WhatsApp Image 2024-03-05 at 6 16 16 AM (1)](https://github.com/Archanakattii/karchana/assets/160317292/80cb6bf1-3f87-4cc4-85a1-276f306a04b1)
-
+ ![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/ac89165d-ab48-4f68-8ca6-aed6998c5c44)
 
   Full 5-stage instruction pipeline and pc-increment description Waveform
   
-![WhatsApp Image 2024-03-05 at 6 16 16 AM (2)](https://github.com/Archanakattii/karchana/assets/160317292/7bac3c18-fd58-48ae-824c-99c0d28a8867)
+![image](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/d4f62cd0-2b5d-4205-a6ce-3576addc9bf1)
 
-![WhatsApp Image 2024-03-05 at 6 12 35 AM](https://github.com/Archanakattii/karchana/assets/160317292/f7db13a8-273a-44de-874d-563159f9cac2)
+![WhatsApp Image 2024-03-06 at 4 07 41 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/806fe8ea-4c44-42b3-b028-0f9b32e10f1c)
 
 
-![WhatsApp Image 2024-03-05 at 6 12 31 AM](https://github.com/Archanakattii/karchana/assets/160317292/8b72d733-be71-45d7-8961-49b096b28067)
+![WhatsApp Image 2024-03-06 at 4 04 43 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/92e741a5-0c62-44a0-9809-61e44b5e6184)
 
 
