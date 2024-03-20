@@ -1,24 +1,42 @@
-**Meeting Held on: 27/02/2024**
+**Task 4 execution is  as follows**
 
-**The C code should undergo the simulation of normal GCC X86 Compiler and riscv compiler** (**SPIKE Simulation**) 
+**Firstly to get the gtkwave window**
 
-**AS PER THE REQUIREMENT OUTPUT OF GCC (F1) SHOULD BE EQUAL = TO OUTPUT OF RISCV GCC (F2)**
-![308578653-f054163c-a5ba-464d-9d89-b310052be406](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/149bedb7-e5f1-4a60-ae19-17284a3bec53)
+ls - to check the get contents of the folder
+![WhatsApp Image 2024-03-20 at 8 18 03 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/32432f4a-0557-43df-a454-ac0c9d18bf71)
 
-**Step - 1: To Run the code in the normal GCC Compiler**
-            **To compile the code: gcc sum1ton.c -o sum1ton**
-            **To Get the output use "./a.out" : Here the output finds to be -Sum of numbers from 1 to 50 is 125250**
+and on running command gtkwave animesh.vcd we get
+![WhatsApp Image 2024-03-20 at 2 22 53 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/cd245f0c-988f-461d-a001-effe41a50477)
 
-            
-**Step - 2: To Run the code in the RISC-V GCC Compiler**
+**Execution part is as follows after running animesh.vcd**
 
- **To compile the code: riscv64-unknown-elf-gcc -o sum1ton sum1ton.c**
-  **To Get the output use "./a.out" : Here the output finds to be -Sum of numbers from 1 to 50 is 125250**
+1.When  we select instantiated module we get all the registers and wires as shown in the image below
+![WhatsApp Image 2024-03-20 at 2 22 53 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/bf95267f-6bfd-4fb3-9b9e-1de27b0fefc8)
 
-  
-![Screenshot from 2024-02-29 12-10-13](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/81a81287-6b23-45e0-8f3d-4668d2cbebbd)
 
-  ![Screenshot from 2024-02-29 12-13-24](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/db7a8377-858d-4b65-a1e5-ccfaa605b0b5)
+2.On adding some signals we can see the waves as shown in figure below
+![WhatsApp Image 2024-03-20 at 2 38 24 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/d7196f73-8f90-42f1-8c9c-e44d6e85fe91)
 
-  
-![Screenshot from 2024-02-29 12-15-43](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/bfe7011f-3a32-4752-baaf-dcdfa80da208)
+
+**Result showing ADD operation**
+
+![WhatsApp Image 2024-03-20 at 9 07 17 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/5685e365-201e-4a65-a667-633bfbb2806a)
+
+**Result showing SUB operation**
+![WhatsApp Image 2024-03-20 at 9 15 33 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/37f6ea55-2278-4256-898a-1d3f34667111)
+
+**Result showing AND operation**
+![WhatsApp Image 2024-03-20 at 9 27 15 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/25d589e9-fa2c-4470-9fac-69cd7eee49e1)
+
+**Result showing OR operation**
+![WhatsApp Image 2024-03-20 at 9 27 16 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/4fd914ed-ebcd-4d91-ae64-3a49489f2a16)
+![WhatsApp Image 2024-03-20 at 9 27 16 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/afe32072-ad51-45ae-b2bf-d10ad3dae29f)
+
+**Result showing XOR operation**
+
+![WhatsApp Image 2024-03-20 at 9 27 16 PM](https://github.com/Animeshhhh15/VSDSQUADRON-MINI-/assets/160756499/333dca75-8106-461e-8220-88edc002c7d9)
+
+
+
+
+
